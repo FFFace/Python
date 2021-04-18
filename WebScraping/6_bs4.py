@@ -29,5 +29,5 @@ rank2 = rank1.find_next_sibling("li")                   # find_next_sibling(str)
 rank1_2 = rank2.find_previous_sibling("li")             # find_previous_sibling(str) : 이전 값 중 str과 동일한 값 반환
 lis = rank1.find_next_siblings("li")                    # find_next_siblings(str) : 다음 값 중 str과 동일한 모든 값 반환
 
-webtoon = soup.find("a", text="나만 보여!-14화")
+webtoon = soup.find("a", text="초인의 시대-후기")
 print(webtoon)
